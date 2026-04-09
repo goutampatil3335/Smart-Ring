@@ -1,35 +1,107 @@
-# Smart Ring for Early Disease Detection
+# 🧠 Smart Ring for Early Disease Detection
 
-This project presents a web-based prototype of a smart wearable ring designed for early detection of chronic diseases such as cardiovascular disorders and diabetes.
+A full-stack web-based prototype simulating a smart wearable ring for early detection of chronic diseases using AI and sensor fusion.
 
-The system simulates physiological sensor data including heart rate, heart rate variability (HRV), and skin temperature. Using a rule-based AI model, it analyzes these parameters through sensor fusion to generate a health risk score.
+---
 
-The application provides real-time monitoring through an interactive dashboard and generates alerts for abnormal conditions. The system is designed to demonstrate how wearable devices can move from simple tracking to predictive healthcare.
+## 🚀 Live Demo
 
-## 🚀 Features
+👉 https://your-app.vercel.app
 
-- Real-time sensor data simulation (Heart Rate, HRV, Temperature)
-- AI-based risk prediction using sensor fusion
-- Health risk scoring system (Normal, Moderate, High Risk)
-- Interactive dashboard with live data visualization
-- Alert system for abnormal conditions
-- Offline-capable system concept (Edge AI simulation)
+---
 
-## 🧠 Technology Stack
+## 🚀 Overview
 
-- Frontend: React (Vite)
-- Styling: Tailwind CSS
-- Visualization: Recharts
-- Logic: JavaScript (Rule-based AI model)
+This project demonstrates how wearable devices can move beyond simple tracking to predictive healthcare. It simulates physiological signals like heart rate, HRV, and temperature, and applies an AI-based model to detect early disease risks.
 
-## ⚙️ How It Works
+The system also includes user authentication and database integration to store and manage health data.
 
-1. Simulated sensor data is generated
-2. Data is processed and analyzed
-3. AI model calculates risk score based on predefined rules
-4. Results are displayed on dashboard
-5. Alerts are triggered if abnormal conditions are detected
+---
+
+## ✨ Features
+
+- 🔐 JWT-based Authentication (Login / Signup)
+- 📊 Real-time Sensor Data Simulation
+- 🧠 AI-based Risk Prediction (Rule-based model)
+- 📈 Interactive Dashboard with Graphs
+- ⚠️ Health Alert System
+- 💾 MongoDB Database Integration
+- 📱 Responsive UI (Tailwind CSS)
+- 🌐 Offline-capable architecture (Edge AI concept)
+
+---
+
+## 🧠 Tech Stack
+
+**Frontend**
+- React (Vite)
+- Tailwind CSS
+- Recharts
+
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- MongoDB (Compass)
+
+**Authentication**
+- JWT (JSON Web Tokens)
+
+---
+
+## ⚙️ System Architecture
+Simulated Sensors (HR, HRV, Temp)
+↓
+Data Processing Layer
+↓
+AI Risk Prediction Engine
+↓
+Backend API
+↓
+MongoDB Database
+↓
+Frontend Dashboard
+↓
+Alerts System
+
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Login Page
+![Login](./screenshots/login.png)
+
+### Graph Visualization
+![Graphs](./screenshots/graphs.png)
+
+---
+
+## 🔍 How It Works
+
+1. User logs in using JWT authentication
+2. Sensor data is simulated in real-time
+3. Data is processed and analyzed
+4. AI model calculates a risk score
+5. Results are displayed on dashboard
+6. Alerts are triggered for abnormal values
+7. Data is stored in MongoDB
+
+---
 
 ## 🎯 Purpose
 
-This project serves as a proof-of-concept prototype for a smart ring system that enables early disease detection using wearable technology and AI.
+To demonstrate a proof-of-concept system for early disease detection using wearable technology and AI, especially targeting low-cost healthcare solutions.
+
+---
+
+## 🔮 Future Improvements
+
+- Integration with real hardware sensors (PPG)
+- Machine Learning model for prediction
+- Mobile application (Flutter/React Native)
+- Real patient dataset analysis
