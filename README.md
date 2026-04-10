@@ -6,7 +6,7 @@ A full-stack web-based prototype simulating a smart wearable ring for early dete
 
 ## 🚀 Live Demo
 
-👉 https://smart-ring-neon.vercel.app
+👉 https://smart-ring-ot0khk244-goutam-patils-projects.vercel.app
 
 ---
 
