@@ -1,6 +1,6 @@
 # 🧠 Smart Ring for Early Disease Detection
 
-A full-stack web-based prototype simulating a smart wearable ring for early detection of chronic diseases using AI and sensor fusion.
+A full-stack web application simulating a smart wearable ring for early detection of chronic diseases using sensor data and predictive logic.
 
 ---
 
@@ -18,16 +18,22 @@ The system also includes user authentication and database integration to store a
 
 ---
 
+🎯 Problem Statement
+
+Traditional wearables only track data but fail to provide actionable health insights.
+This project demonstrates how wearable technology can enable early disease detection using continuous monitoring and predictive analysis.
+
+---
+
 ## ✨ Features
 
-- 🔐 JWT-based Authentication (Login / Signup)
-- 📊 Real-time Sensor Data Simulation
-- 🧠 AI-based Risk Prediction (Rule-based model)
-- 📈 Interactive Dashboard with Graphs
-- ⚠️ Health Alert System
-- 💾 MongoDB Database Integration
-- 📱 Responsive UI (Tailwind CSS)
-- 🌐 Offline-capable architecture (Edge AI concept)
+-🔐 Secure authentication using JWT (Login / Signup)
+-📊 Real-time simulation of health metrics (HR, HRV, Temperature)
+-🧠 Predictive risk analysis using rule-based logic
+-📈 Interactive dashboard with data visualization (Recharts)
+-⚠️ Alert system for abnormal health conditions
+-💾 Persistent storage using MongoDB
+-📱 Fully responsive UI with Tailwind CSS
 
 ---
 
@@ -43,7 +49,7 @@ The system also includes user authentication and database integration to store a
 - Express.js
 
 **Database**
-- MongoDB (Compass)
+- MongoDB
 
 **Authentication**
 - JWT (JSON Web Tokens)
@@ -53,9 +59,9 @@ The system also includes user authentication and database integration to store a
 ## ⚙️ System Architecture
 Simulated Sensors (HR, HRV, Temp)
 ↓
-Data Processing Layer
+Data Processing
 ↓
-AI Risk Prediction Engine
+Risk Prediction Engine
 ↓
 Backend API
 ↓
@@ -63,7 +69,7 @@ MongoDB Database
 ↓
 Frontend Dashboard
 ↓
-Alerts System
+Alerts
 
 
 ---
@@ -86,16 +92,10 @@ Alerts System
 1. User logs in using JWT authentication
 2. Sensor data is simulated in real-time
 3. Data is processed and analyzed
-4. AI model calculates a risk score
+4. Risk prediction logic evaluates health status
 5. Results are displayed on dashboard
-6. Alerts are triggered for abnormal values
+6. Alerts notify abnormal conditions
 7. Data is stored in MongoDB
-
----
-
-## 🎯 Purpose
-
-To demonstrate a proof-of-concept system for early disease detection using wearable technology and AI, especially targeting low-cost healthcare solutions.
 
 ---
 
@@ -104,4 +104,12 @@ To demonstrate a proof-of-concept system for early disease detection using weara
 - Integration with real hardware sensors (PPG)
 - Machine Learning model for prediction
 - Mobile application (Flutter/React Native)
-- Real patient dataset analysis
+- Real-world dataset integration
+
+---
+
+## ⭐ Key Highlights
+- Full-stack MERN architecture
+- Real-world healthcare use case
+- Deployed on Vercel + Render
+- Scalable and modular design
