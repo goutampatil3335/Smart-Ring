@@ -179,6 +179,11 @@ app.post('/api/auth/login', async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+});
+
+
 // Get current user
 app.get('/api/auth/me', authenticateToken, async (req, res) => {
   try {
@@ -273,6 +278,6 @@ app.get('/api/health-records/compare', authenticateToken, async (req, res) => {
 });
 
 // Start server
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on port ${PORT}`);
+app.listen(process.env.PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${process.env.PORT}`);
 });
