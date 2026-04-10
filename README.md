@@ -12,7 +12,7 @@ A full-stack web application simulating a smart wearable ring for early detectio
 
 ## 🚀 Overview
 
-This project demonstrates how wearable devices can move beyond simple tracking to predictive healthcare. It simulates physiological signals like heart rate, HRV, and temperature, and applies an AI-based model to detect early disease risks.
+This project demonstrates how wearable devices can move beyond simple tracking to predictive healthcare. It simulates physiological signals like heart rate, HRV, and temperature, and applies an Rule-based logic to detect early disease risks.
 
 The system also includes user authentication and database integration to store and manage health data.
 
@@ -27,13 +27,13 @@ This project demonstrates how wearable technology can enable early disease detec
 
 ## ✨ Features
 
--🔐 Secure authentication using JWT (Login / Signup)
--📊 Real-time simulation of health metrics (HR, HRV, Temperature)
--🧠 Predictive risk analysis using rule-based logic
--📈 Interactive dashboard with data visualization (Recharts)
--⚠️ Alert system for abnormal health conditions
--💾 Persistent storage using MongoDB
--📱 Fully responsive UI with Tailwind CSS
+- 🔐 Secure authentication using JWT (Login / Signup)
+- 📊 Real-time simulation of health metrics (HR, HRV, Temperature)
+- 🧠 Predictive risk analysis using rule-based logic
+- 📈 Interactive dashboard with data visualization (Recharts)
+- ⚠️ Alert system for abnormal health conditions
+- 💾 Persistent storage using MongoDB
+- 📱 Fully responsive UI with Tailwind CSS
 
 ---
 
