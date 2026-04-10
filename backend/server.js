@@ -183,7 +183,6 @@ app.get("/", (req, res) => {
   res.send("Backend is running 🚀");
 });
 
-
 // Get current user
 app.get('/api/auth/me', authenticateToken, async (req, res) => {
   try {
